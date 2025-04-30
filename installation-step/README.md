@@ -24,7 +24,7 @@ Download JDK for all or from google
 
 Download JDK24 for debian x64 or from google
 <pre><code>
-wget https://download.oracle.com/java/24/latest/jdk-24_linux-x64_bin.deb   download from wget
+wget https://download.oracle.com/java/24/latest/jdk-24_linux-x64_bin.deb   #download from wget
 sudo dpkg -i jdk-24_linux-x64_bin.deb      #package name
 java --version
 </code></pre>
@@ -33,14 +33,13 @@ java --version
 
 # Maven
 
-Download Maven from url or from google
-
 **WINDOWS**
 <pre><code>
 https://maven.apache.org/  #Download binary zip archieve file
 #extract files to C\Devtools
 </code></pre>
 Go to C:\Devtools\Apache-Maven and copy path and add to environment variables
+Go to C:\Devtools\Apache-Maven\bin and copy path and add to environment variables
 
 **Linux**
 <pre><code>
@@ -48,3 +47,12 @@ sudo apt install maven
 mvn --version
 </code></pre>
 
+# Jenkins
+
+<pre><code>https://www.jenkins.io/download/    #download jenkins from official website</code></pre>
+
+after installation 
+<pre><code>systemctl start jenkins    #by default automatic start but sometime you have to do</code></pre>
+
+open jenkins on any browser by localhost:8080 and it ask to generate new password 
+<pre><code>localhost:8080  #jenkins default port 8080</code></pre>
