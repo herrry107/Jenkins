@@ -59,5 +59,7 @@ open jenkins on any browser by localhost:8080 and it ask to generate new passwor
 
 Now select suggested plugins and ask for username and password
 
-username: admin
+username: admin,
 password: admin123
+
+![Alt-text](https://github.com/herrry107/Jenkins/blob/main/images/jenkins-homepage.png)
