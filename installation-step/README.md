@@ -56,3 +56,8 @@ after installation
 
 open jenkins on any browser by localhost:8080 and it ask to generate new password 
 <pre><code>localhost:8080  #jenkins default port 8080</code></pre>
+
+Now select suggested plugins and ask for username and password
+username: admin
+password: admin123
+email address: xyz@gmail.com
