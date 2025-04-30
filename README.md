@@ -10,3 +10,20 @@ Jenkins is an open-source automation server used primarily for continuous integr
 - It can run on any major platform without any compatibility issues.
 - Whenever developers write codes, we integrate all that code of all developers at that point of time and we build, test and Deliver/Deploy to the client. This process is called CI/CD.
 - Because of CI, Nows bugs will be reported fast and get rectified fast so the entire software development happens fast.
+
+# Workflow of Jenkins
+- We can attach git, maven, selenium and artifactory plugins to Jenkins.
+- Once developer puts code in github, Jenkins pulls that code and send to maven for build.
+- Once build is done, jenkins pull that code and send to selenium for testing.
+- Once testing is done, then jenkins will pull that code and send to artifactory as per requirement and so on.
+- We can also deploy with jenkins.
+
+# Advantages of Jenkins
+- It has lots of plugin available.
+- You can write your own plugin.
+- You can use community plugin.
+- Jenkins is not just a tool. It is a framework, you can do whatever, you want all you need is plugin.
+- We can attach slaves(nodes) to Jenkins master. It instruct others(slaves) to do job. If slaves are not available, Jenkins itself does the job.
+- Jenkins also behave as crone server replacement. means can do scheduled task.
+- It can create labels.
+  
