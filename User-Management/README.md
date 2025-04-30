@@ -32,3 +32,26 @@ Go to **Manage Jenkins -> Security -> Authorization -> Role-Based Strategy**
 
 ![Role-Based Strategy](https://github.com/herrry107/Jenkins/blob/main/images/user-management/jenkins-user-role-based-2.png)
 
+Now create global roles and item roles 
+
+Go to **Manage Jenkins -> Manage and Assign Roles**
+
+![Manage and Assign Roles](https://github.com/herrry107/Jenkins/blob/main/images/user-management/jenkins-user-role-based-3.png)
+
+Go to **Manage Jenkins -> Manage and Assign Roles -> Manage Roles**
+
+Now create Global role and add employe by click on role to add and give permission to employee group
+
+![Manage Roles](https://github.com/herrry107/Jenkins/blob/main/images/user-management/jenkins-user-role-based-4.png)
+
+Now create item role and add **developer: pattern dev** and **tester: pattern test** and give permission.
+
+![Item roles](https://github.com/herrry107/Jenkins/blob/main/images/user-management/jenkins-user-role-based-5.png)
+
+Go to **Manage Jenkins -> Manage and Assign Roles -> Attach  Roles**
+
+Now go to attach roles and add user by type user name and add global and item roles on that now user have only those access.
+
+![Attach Roles](https://github.com/herrry107/Jenkins/blob/main/images/user-management/jenkins-user-role-based-6.png)
+
+
