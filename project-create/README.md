@@ -27,6 +27,8 @@ click on **"Dashboard -> New Item -> Freestyle Project -> git -> repository url 
 
 # Run Project 
 
+click on **"Build Now"**
+
 ![Build Now](https://github.com/herrry107/Jenkins/blob/main/images/project1/jenkins-newitem-run.png)
 
 # Run Completed
