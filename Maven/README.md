@@ -85,4 +85,17 @@
 **ANT**
 
 ANT does not has formal conventions, so we need to provide information of the project structure in build.xml file
-- ANT is procedural, you need to provide info about what to do and when to do through code. 
+- ANT is procedural, you need to provide info about what to do and when to do through code.
+- There is no lifecyle in ANT.
+- Is is a tool box.
+- It is mainly a build tool.
+- It is less preferred than Maven.
+
+**Maven**
+
+Maven has a convention to place source code, compiled code etc. So we don't need to provide information about the project structure in pom.xml file.
+- Maven is declarative everything you define in the pom.xml file
+- This is a lifecycle in Maven.
+- It is a framework.
+- It is mainly a project management tool.
+- It is more preferred.
