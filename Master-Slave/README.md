@@ -47,7 +47,7 @@ Now go to project and assign specific slave to run this project click on project
 
 ![Permanent Link](https://github.com/herrry107/Jenkins/blob/main/images/master-slave/jenkins-nodes-7.png)
 
-click on **"Restrict where this project can be run -> Label Expression"**
+click on **"Restrict where this project can be run -> Label Expression"** and type slave label here
 
 ![Permanent Link](https://github.com/herrry107/Jenkins/blob/main/images/master-slave/jenkins-nodes-8.png)
 
