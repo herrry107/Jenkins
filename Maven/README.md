@@ -58,3 +58,31 @@
 - Dependencies(Remote repo -> local repo -> workspace)
 
 # Maven Architecture
+
+![Maven-Architecture](https://github.com/herrry107/Jenkins/blob/main/images/maven-architecture.png)
+
+**Local Repository:** Local repository refers to the machine of the developer where all the project Material is saved.
+
+**Remote Repository:** It refers to the repository present on a webserver which is used when Maven needs to download dependencies. This repository works same as the central Repo whenever anything is needed from remote repository it is fact downloaded to the local repo and then it is used.
+
+**Central Repository:** Central repository refers to the Maven community that comes into action when there is a need of dependencies and those dependencies cannot be found in the local repository.
+
+**Maven Build Life Cycle Goals**
+1) Generate Resource(Dependencies)
+2) Compile code
+3) Unit test
+4) Package(Build)
+5) Install(into local repo & artifactory)
+6) Deploy(to server)
+7) clean(delete all run time files): like **mvn install** and **mvn clean package**
+
+- Build life cycle consists of a sequence of build phase and each build phase consist of a sequence of goals.
+- Each goal is responsible for a particular tasks.
+- When a phase is run all the goals related to that phase and its plugin are also compiled.
+
+# ANT vs MAVEN
+
+**ANT**
+
+ANT does not has formal conventions, so we need to provide information of the project structure in build.xml file
+- ANT is procedural, you need to provide info about what to do and when to do through code. 
