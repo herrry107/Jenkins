@@ -19,5 +19,42 @@
 # Problem Without Maven
 
 **1) Adding set of jars in each project:** In case of struts, spring, we need to add jar files in each project It must include all the dependencies of jars also.
+
 **2) Creating the right project structure:** We must create the right project structure in servlet, struts etc, otherwiseit will not be executed.
 
+**3) Building and depending the project:** We must have to build and deploy the project so that it may work.
+
+# What Maven Does?
+
+1) It makes a project easy to build
+2) It provides project information
+3) Easy to add new dependencies,
+    Therefore for Apache Maven helps to Manage
+   - Build
+   - Dependencies
+   - Reports
+   - Release
+   - Distribution
+
+# POM(Project Object Maven)
+ 
+ - POM refers the the XML files that have all the information regarding project and configuration details.
+ - Main configure file is pom.xml
+ - It has the description of the project details regarding the versioning and configuration management of the project.
+ - The XML files is the project home directory.
+
+ POM.xml Contains:
+ - Metadata
+ - Dependencies
+ - Kind of projects
+ - Kind of Output (.jar, .war)
+ - Description
+
+**One Project -> One Workspace -> One pom.xml**
+
+**Requirement for Build**
+- Source Code(Present in Workspace)
+- Compiler(Remote repo -> local repo -> workspace)
+- Dependencies(Remote repo -> local repo -> workspace)
+
+# Maven Architecture
