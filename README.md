@@ -35,3 +35,5 @@ Jenkins is an open-source automation server used primarily for continuous integr
 [3) Project Create](https://github.com/herrry107/Jenkins/tree/main/project-create)
 
 [4) User Mangement](https://github.com/herrry107/Jenkins/tree/main/User-Management)
+
+[5) Master-Slave] (https://github.com/herrry107/Jenkins/tree/main/Master-Slave)
