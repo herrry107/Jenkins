@@ -28,11 +28,11 @@ Jenkins is an open-source automation server used primarily for continuous integr
 - It can create labels.
 
 # Read All Jenkins Docs by these sequence
-[1) Insallation Step](https://github.com/herrry107/Jenkins/tree/main/installation-step)
+[1) Insallation Step](https://github.com/herrry107/Jenkins/tree/main/Installation-step)
 
-[2) Plugin](https://github.com/herrry107/Jenkins/tree/main/plugin)
+[2) Plugin](https://github.com/herrry107/Jenkins/tree/main/Plugin)
   
-[3) Project Create](https://github.com/herrry107/Jenkins/tree/main/project-create)
+[3) Project Create](https://github.com/herrry107/Jenkins/tree/main/Project-create)
 
 [4) User Mangement](https://github.com/herrry107/Jenkins/tree/main/User-Management)
 
